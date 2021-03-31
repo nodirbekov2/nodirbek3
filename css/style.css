@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+nav ul{
+   display: flex;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+nav ul li a{
+    color: black;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+nav ul li a:hover{
+    color: rgb(253, 10, 10);
+    text-decoration: none;
+}
+
+.header-text{
+    text-align: center;
+    background: #007d2f;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+.header-text h1{
+    padding-top: 114px;
+    padding-bottom: 36px;
+    font-family: 'Montserrat';
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+.header-text p{
+    padding-bottom: 96px;
+    margin-bottom: 0;
+    font-family: 'Roboto';
+}
+
+.header-off{
+    color: #ffffff;
+}
+
+.office .box img{
+    width: 100%;
+}
+
+.office .box{
+    position: relative;
+}
+
+i {
+    font-size: 61px;
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.office a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.83);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.office .box:hover a{
+    opacity: 1;
+}
+
+.block-col{
+    padding: 0;
+}
+
+footer{
+    background: #141414;
+    color: #bcbcbc;
+    padding: 102px 0;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+footer h1{
+    color: white;
+    font-size: 17.6px;
+    font-family: 'Montserrat';
+}
+
+p{
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+}
+
+.footer_p1{
+    margin-top: 31px;
+}
+
+.footer2{
+    text-align: center;
+}
+
+.nodir{
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face{
+    font-family: 'NunitoSans';
+    src: url(../fonts/NunitoSans-Regular.ttf);
+}
+
+footer a{
+    color: #bcbcbc;
+    font-family: 'NunitoSans';
+}   
